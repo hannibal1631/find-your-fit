@@ -14,7 +14,11 @@ function Footer() {
       <div className='max-w-7xl mx-auto px-5 py-10 grid grid-cols-1 md:grid-cols-4 gap-10'>
         {/* Logo + Socials */}
         <div>
-          <h1 className='text-2xl font-bold mb-3'>Find Your Fit</h1>
+          <img
+            src='/hero-logo.png'
+            alt='find-your-fit'
+            className='h-18 md:h-70 lg:h-18 object-contain w-auto drop-shadow-md transition-transform duration-200 hover:scale-105'
+          />
           <p className='leading-6 mb-6'>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit.
@@ -112,15 +116,15 @@ function Footer() {
 
           <button
             type='submit'
-            className='w-full bg-black h-[50px] mt-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:duration-500 before:ease-in-out hover:before:left-0 before:z-[-1] text-white'
+            className='w-full bg-black h-12.5 mt-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:duration-500 before:ease-in-out hover:before:left-0 before:z-[-1] text-white'
           >
             Subscribe
           </button>
           <Link
-              to='/signup'
-              className='w-full bg-black h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-white'
-            >
-              Sign Up / Login
+            to='/signup'
+            className='w-full bg-black h-12.5 my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-linear-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-white'
+          >
+            Sign Up / Login
           </Link>
         </div>
       </div>

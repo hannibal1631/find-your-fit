@@ -18,10 +18,14 @@ function Header() {
   return (
     <header className='bg-blue-600'>
       <div className='px-5 max-w-7xl mx-auto'>
-        <nav className='flex justify-between items-center h-20'>
-          <div>
+        <nav className='flex justify-between items-center h-20 lg:h-24'>
+          <div className='flex items-center'>
             <Link to='/'>
-              <h1>Find you fit</h1>
+              <img
+                src='/hero-logo.png'
+                alt='find-your-fit'
+                className='h-18 md:h-70 lg:h-18 object-contain w-auto drop-shadow-md transition-transform duration-200 hover:scale-105'
+              />
             </Link>
           </div>
           <div className='hidden lg:flex text-2xl gap-10 font-semibold '>
