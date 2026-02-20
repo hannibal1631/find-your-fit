@@ -58,36 +58,6 @@ The repository contains core folders like **public** and **src**, along with con
 
 ---
 
-## 🧪 Available Scripts
-
-Run development server
-
-```bash
-npm run dev
-```
-
-Build production version
-
-```bash
-npm run build
-```
-
-Preview production build
-
-```bash
-npm run preview
-```
-
-Run linter
-
-```bash
-npm run lint
-```
-
-These scripts are defined in the project config. ([GitHub][2])
-
----
-
 ## 📦 Installation
 
 Clone repo
